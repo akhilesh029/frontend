@@ -4,15 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://akhilesh029.github.io/frontend",
-
-  "scripts": {
+"scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
+    "deploy": "gh-pages -d dist"
+},
+
   "dependencies": {
     "preact": "^10.19.6",
     "react-router-dom": "^6.23.1"
